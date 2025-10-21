@@ -23,8 +23,8 @@ import requests
 BASE = "https://pimacountyaz-web.tylerhost.net"
 
 # Date range (MM/DD/YYYY)
-START_DATE = "10/01/2025"
-END_DATE   = "10/16/2025"
+START_DATE = "07/01/2025"
+END_DATE   = "10/21/2025"
 
 # Document types:
 #   - codes only: ["NTSALE", "CNLNT"]
@@ -45,7 +45,7 @@ VERBOSE = True
 
 # ---- HTML/JSON dumping ----
 DUMP_HTML = True                  # master switch
-OUTPUT_DIR = "out"                # folder for dumps
+OUTPUT_DIR = "Results"                # folder for dumps
 # Select which steps to dump (names below must match calls to dump()):
 DUMP_STEPS = {
     "disclaimer_get": False,
